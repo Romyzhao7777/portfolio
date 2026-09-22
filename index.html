@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jiaqi (Romy) Zhao - Computer Science & AI Enthusiast</title>
+    <title>Jiaqi (Romy) Zhao - Founding Engineer & CS Student</title>
     <script>
         (function () {
             const saved = localStorage.getItem('theme');
@@ -25,9 +25,10 @@
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#togedex" class="nav-link">Togedex</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#aigc" class="nav-link">AIGC Works</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="nav-actions">
@@ -57,14 +58,14 @@
                     <span class="greeting">Hi, I'm</span>
                     <span class="name">Jiaqi Zhao</span>
                 </h1>
-                <p class="hero-subtitle">Computer Science & AI Enthusiast</p>
+                <p class="hero-subtitle">Founding Engineer & CS Student</p>
                 <p class="hero-description">
                     Computer Science Specialist + Statistics Major at University of Toronto<br>
-                    GPA: 3.74/4.00 | Software Developer Co-op at Trend Micro — Building AI-powered security tools and full-stack products
+                    GPA: 3.74/4.00 · Co-founder of Togedex, a live iOS app for TCG collectors
                 </p>
                 <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#togedex" class="btn btn-primary">See Togedex</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -90,7 +91,7 @@
             <div class="about-content">
                 <div class="about-text">
                     <p class="about-intro">
-                        I'm a Computer Science Specialist and Statistics Major at the University of Toronto, currently working as a
+                        I'm a Computer Science Specialist and Statistics Major at the University of Toronto, and previously worked as a
                         Software Developer Co-op at Trend Micro. I'm passionate about building AI-powered tools, full-stack products,
                         and human-centered experiences — from malware detection in AI agent skill packages to mobile apps with
                         computer vision. With hands-on experience across security tooling, AI agent workflows, and product engineering,
@@ -98,49 +99,241 @@
                     </p>
                     <div class="about-details">
                         <div class="detail-item">
-                            <h3>Education</h3>
-                            <p><strong>University of Toronto</strong></p>
-                            <p>Bachelor of Science — Computer Science Specialist, Statistics Major</p>
-                            <p class="detail-meta">Expected Graduation: June 2028 | GPA: 3.74/4.00</p>
-                            <p class="detail-meta">Coursework: Systems Programming, Data Structures &amp; Analysis, Human–Computer Interaction, Theory of Computation</p>
-                        </div>
-                        <div class="detail-item">
                             <h3>Software Developer Co-op</h3>
                             <p><strong>Trend Micro</strong> | Ottawa, ON, Canada<br>
-                            <span class="detail-meta">May 2026 – Present</span></p>
-                            <p>Developed the AI Skill Scanner for DDCloud Sandbox Analysis, integrating static and dynamic analysis,
-                            sandbox system events, and prompt session traces into structured scan reports to detect malware and
-                            supply-chain threats in AI agent skill packages. Built FEDex MockUP, a tool that converts production React
-                            code into interactive UI prototypes by intercepting APIs and injecting pre-recorded threat-analysis data.
-                            Reduced design alignment cycles by ∼20% by replacing static sketches with shareable live prototypes
-                            automatically deployed to AWS S3 through a CI/CD pipeline.</p>
+                            <span class="detail-meta">May 2026 – Aug 2026</span></p>
+                            <p>Built the AI Skill Scanner to detect malware in AI agent skill packages, and FEDex MockUP to turn
+                            production React code into live UI prototypes. Cut design alignment cycles by ∼20% with shareable
+                            prototypes deployed to AWS S3.</p>
                         </div>
                         <div class="detail-item">
                             <h3>AI Application Development Engineer Intern (Full-Stack)</h3>
                             <p><strong>Tiangong Zhiyuan Technology Co., Ltd.</strong> | Shenzhen, Guangdong, China<br>
                             <span class="detail-meta">Jun 2025 – Nov 2025</span></p>
-                            <p>Built a Python-based AI agent workflow system to automate work-order operations, enabling structured
-                            task orchestration and reducing manual coordination time by ∼15%. Designed a modular API-driven backend
-                            integrating workflow processing and system monitoring nodes for real-time operational tracking. Developed
-                            configurable HTML + JSON interfaces with SQL-backed state management and used AI-assisted development
-                            (Cursor) to accelerate development cycles by ∼60%.</p>
+                            <p>Built a Python AI agent workflow system for work-order automation, with an API-driven backend and
+                            SQL-backed interfaces. Reduced manual coordination by ∼15% and sped up development by ∼60% with
+                            AI-assisted tooling.</p>
                         </div>
                         <div class="detail-item">
                             <h3>Technical Intern — Robotics Department</h3>
                             <p><strong>Beijing Haibaichuan Technology Co., Ltd.</strong> | Beijing, China<br>
                             <span class="detail-meta">May 2025 – Jun 2025</span></p>
-                            <p>Developed PC-integrated control software for humanoid robots, combining servo motor control with
-                            motion sequencing and expression rendering to support synchronized behaviors and real-time interaction.</p>
-                        </div>
-                        <div class="detail-item">
-                            <h3>Focus Areas</h3>
-                            <p>AI-powered security tooling, agent-based workflow systems, full-stack and mobile development
-                            (React / React Native), computer vision, and human-centered product design.</p>
+                            <p>Developed PC control software for humanoid robots, combining servo control, motion sequencing,
+                            and expression rendering for real-time interaction.</p>
                         </div>
                     </div>
                 </div>
                 <div>
                     <img src="biophoto2.jpg" alt="Jiaqi Zhao" class="about-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Togedex Featured Product -->
+    <section id="togedex" class="togedex-feature">
+        <div class="container">
+            <div class="togedex-hero-grid">
+                <div class="togedex-copy">
+                    <span class="togedex-kicker">Featured product · Live on the App Store</span>
+                    <div class="togedex-brand">
+                        <img src="togedex/icon.jpg" alt="Togedex app icon" class="togedex-icon">
+                        <div>
+                            <h2 class="togedex-title">Togedex</h2>
+                            <p class="togedex-role">Co-Founder &amp; Founding Engineer</p>
+                        </div>
+                    </div>
+                    <p class="togedex-tagline">Your cards deserve the spotlight.</p>
+                    <p class="togedex-desc">
+                        I co-founded Togedex, a collector-first iOS app for organizing TCG binders, tracking live market value,
+                        and trading with nearby collectors. It is live on the App Store, with real users scanning cards,
+                        browsing listings, and sending trade offers.
+                    </p>
+                    <div class="togedex-stats">
+                        <div class="togedex-stat">
+                            <strong>270</strong>
+                            <span>iOS users</span>
+                        </div>
+                        <div class="togedex-stat">
+                            <strong>5.0</strong>
+                            <span>App Store rating</span>
+                        </div>
+                        <div class="togedex-stat">
+                            <strong>May 2026</strong>
+                            <span>launched on iOS</span>
+                        </div>
+                    </div>
+                    <div class="togedex-tags">
+                        <span class="tag">React Native</span>
+                        <span class="tag">Expo</span>
+                        <span class="tag">OpenCV</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">Supabase</span>
+                        <span class="tag">Fly.io</span>
+                    </div>
+                    <div class="togedex-cta">
+                        <a class="togedex-btn togedex-btn-primary" href="https://apps.apple.com/ca/app/togedex-tcg-card-binder/id6762107927" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 29" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.43c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.39-1.32 2.76-2.53 3.96z"></path><path d="M12.54 7.32c-.15-2.45 1.97-4.54 4.29-4.81.31 2.63-2.35 4.66-4.29 4.81z"></path></svg>
+                            App Store
+                        </a>
+                        <a class="togedex-btn togedex-btn-secondary" href="https://togedex.ca/" target="_blank" rel="noopener noreferrer">
+                            Visit togedex.ca
+                        </a>
+                    </div>
+                </div>
+                <div class="togedex-phones" aria-hidden="true">
+                    <div class="phone-frame phone-back">
+                        <img src="togedex/screen-1.jpg" alt="Togedex digital binder on the App Store">
+                    </div>
+                    <div class="phone-frame phone-front">
+                        <img src="togedex/screen-3.jpg" alt="Togedex portfolio tracking on the App Store">
+                    </div>
+                </div>
+            </div>
+
+            <div class="togedex-built">
+                <h3>What I built</h3>
+                <div class="togedex-built-grid">
+                    <article class="togedex-built-card">
+                        <span class="togedex-built-icon">📷</span>
+                        <h4>Card scanning</h4>
+                        <p>Camera pipeline with OpenCV and a fine-tuned RapidOCR / ONNX model to read card names and IDs.</p>
+                    </article>
+                    <article class="togedex-built-card">
+                        <span class="togedex-built-icon">📈</span>
+                        <h4>Portfolio &amp; prices</h4>
+                        <p>Collection value tracking with daily TCGplayer and eBay last-sold data, synced in real time.</p>
+                    </article>
+                    <article class="togedex-built-card">
+                        <span class="togedex-built-icon">🔄</span>
+                        <h4>Trade marketplace</h4>
+                        <p>Public binders, wishlists, verified listings, and offer chat so collectors can trade nearby.</p>
+                    </article>
+                    <article class="togedex-built-card">
+                        <span class="togedex-built-icon">☁️</span>
+                        <h4>Recognition API</h4>
+                        <p>Python / Flask service on Fly.io plus Supabase for auth, storage, and live collection sync.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects-spotlight-grid">
+                <article class="project-spotlight">
+                    <span class="aortix-kicker">Battle of School Hacks</span>
+                    <div class="aortix-header">
+                        <div>
+                            <h3 class="aortix-title">AortiX</h3>
+                            <p class="aortix-role">Algorithm Lead</p>
+                        </div>
+                        <a class="togedex-btn togedex-btn-secondary" href="https://github.com/Eileen1222/Heathcare_hackthon" target="_blank" rel="noopener noreferrer">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            View code
+                        </a>
+                    </div>
+                    <p class="aortix-desc">
+                        Led the core detection engine for a CTA analysis tool that locates direct aortic branch
+                        arteries from volumetric scan data. Built the end-to-end pipeline — 3D preprocessing,
+                        vessel analysis, centreline tracing, and coordinate export — and integrated it with the
+                        team's Streamlit viewer.
+                    </p>
+                    <div class="togedex-tags aortix-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Medical Imaging</span>
+                        <span class="tag">NumPy / SciPy</span>
+                        <span class="tag">SimpleITK</span>
+                        <span class="tag">scikit-image</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Plotly</span>
+                    </div>
+                </article>
+
+                <article class="project-spotlight">
+                    <span class="aortix-kicker">HCI Course Project</span>
+                    <div class="aortix-header">
+                        <div>
+                            <h3 class="aortix-title">iGather</h3>
+                            <p class="aortix-role">UX Research &amp; Prototyping</p>
+                        </div>
+                        <a class="togedex-btn togedex-btn-secondary" href="https://github.com/Romyzhao7777" target="_blank" rel="noopener noreferrer">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            View code
+                        </a>
+                    </div>
+                    <p class="aortix-desc">
+                        Designed a human-centered planning platform for small groups through user interviews,
+                        affinity mapping, and persona development. Built and tested Figma prototypes iteratively,
+                        turning research insights into clearer interaction flows.
+                    </p>
+                    <div class="togedex-tags aortix-tags">
+                        <span class="tag">UX Research</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">HCI</span>
+                        <span class="tag">Prototyping</span>
+                        <span class="tag">User Testing</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+<!-- AIGC Works Section -->
+    <section id="aigc" class="aigc">
+        <div class="container">
+            <h2 class="section-title">AIGC Creative Works</h2>
+            <p class="section-subtitle">Exploring AI-generated content through hands-on video creation projects</p>
+            <div class="aigc-content">
+                <p class="aigc-intro">
+                    I'm deeply passionate about AIGC (AI-Generated Content) and have created several video projects entirely from scratch, 
+                    demonstrating my ability to leverage multiple AI tools and platforms. The creative process involved prompt optimization 
+                    using various conversational models (Gemini, ChatGPT, GenSpark), image generation through platforms like JiMeng AI and 
+                    Midjourney, and video creation using cutting-edge tools such as Sora and Kling. These projects showcase my technical 
+                    skills, creativity, and comprehensive understanding of the AIGC workflow from concept to final output.
+                </p>
+                <div class="aigc-videos">
+                    <div class="video-card">
+                        <div class="video-container">
+                            <iframe 
+                                width="100%" 
+                                height="400" 
+                                src="https://www.youtube.com/embed/xUDhKSql9MY" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">AIGC Video Project 1</h3>
+                            <p class="video-description">A creative video project exploring AI-generated content and visual storytelling, created entirely from scratch.</p>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-container">
+                            <iframe 
+                                width="100%" 
+                                height="400" 
+                                src="https://www.youtube.com/embed/TBhw0h0HJSc" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">AIGC Video Project 2</h3>
+                            <p class="video-description">Another innovative video creation demonstrating my passion for AIGC and creative expression through AI tools.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -271,155 +464,6 @@
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 85%"></div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <p class="section-subtitle">Showcasing my technical skills and problem-solving abilities</p>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">🃏</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">React Native</span>
-                            <span class="tag">Expo</span>
-                            <span class="tag">OpenCV</span>
-                            <span class="tag">Flask</span>
-                            <span class="tag">Supabase</span>
-                        </div>
-                        <h3 class="project-title">Togedex — Co-Founder &amp; Founding Engineer</h3>
-                        <p class="project-description">
-                            Co-founded and developed a React Native (Expo) mobile app for Pokémon TCG collectors to manage
-                            collections, trade with nearby players, and verify card authenticity via camera. Engineered a computer
-                            vision card scanning pipeline using OpenCV and fine-tuned an ONNX-based RapidOCR model for card name
-                            and ID recognition. Deployed the recognition service with Python (Flask) on Fly.io and built core features
-                            including portfolio management and real-time sync with Supabase.
-                        </p>
-                        <div class="project-links">
-                            <a href="https://github.com/Romyzhao7777" target="_blank" class="project-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                                View Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">📋</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">UX Research</span>
-                            <span class="tag">Figma</span>
-                            <span class="tag">HCI</span>
-                            <span class="tag">Prototyping</span>
-                        </div>
-                        <h3 class="project-title">iGather — Human-Centered Planning Platform</h3>
-                        <p class="project-description">
-                            Conducted user experience research on small-group planning through interviews, affinity mapping,
-                            persona development, and competitive analysis. Designed and evaluated low-fidelity and interactive
-                            Figma prototypes through iterative user testing, synthesizing qualitative findings into user-centered
-                            interaction flows and interface improvements.
-                        </p>
-                        <div class="project-links">
-                            <a href="https://github.com/Romyzhao7777" target="_blank" class="project-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                                View Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">🛡️</div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">React</span>
-                            <span class="tag">AWS S3</span>
-                            <span class="tag">CI/CD</span>
-                            <span class="tag">AI Security</span>
-                        </div>
-                        <h3 class="project-title">AI Skill Scanner &amp; FEDex MockUP — Trend Micro</h3>
-                        <p class="project-description">
-                            Built the AI Skill Scanner for DDCloud Sandbox Analysis to detect malware and supply-chain threats
-                            in AI agent skill packages using static/dynamic analysis and prompt session traces. Created FEDex MockUP
-                            to convert production React code into interactive UI prototypes with intercepted APIs and pre-recorded
-                            threat-analysis data, deployed automatically to AWS S3 via CI/CD.
-                        </p>
-                        <div class="project-links">
-                            <a href="https://github.com/Romyzhao7777" target="_blank" class="project-link">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                </svg>
-                                View Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- AIGC Works Section -->
-    <section id="aigc" class="aigc">
-        <div class="container">
-            <h2 class="section-title">AIGC Creative Works</h2>
-            <p class="section-subtitle">Exploring AI-generated content through hands-on video creation projects</p>
-            <div class="aigc-content">
-                <p class="aigc-intro">
-                    I'm deeply passionate about AIGC (AI-Generated Content) and have created several video projects entirely from scratch, 
-                    demonstrating my ability to leverage multiple AI tools and platforms. The creative process involved prompt optimization 
-                    using various conversational models (Gemini, ChatGPT, GenSpark), image generation through platforms like JiMeng AI and 
-                    Midjourney, and video creation using cutting-edge tools such as Sora and Kling. These projects showcase my technical 
-                    skills, creativity, and comprehensive understanding of the AIGC workflow from concept to final output.
-                </p>
-                <div class="aigc-videos">
-                    <div class="video-card">
-                        <div class="video-container">
-                            <iframe 
-                                width="100%" 
-                                height="400" 
-                                src="https://www.youtube.com/embed/xUDhKSql9MY" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">AIGC Video Project 1</h3>
-                            <p class="video-description">A creative video project exploring AI-generated content and visual storytelling, created entirely from scratch.</p>
-                        </div>
-                    </div>
-                    <div class="video-card">
-                        <div class="video-container">
-                            <iframe 
-                                width="100%" 
-                                height="400" 
-                                src="https://www.youtube.com/embed/TBhw0h0HJSc" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">AIGC Video Project 2</h3>
-                            <p class="video-description">Another innovative video creation demonstrating my passion for AIGC and creative expression through AI tools.</p>
                         </div>
                     </div>
                 </div>

@@ -221,4 +221,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Console message
 console.log('%c👋 Hi! Welcome to my portfolio', 'color: #0ea5e9; font-size: 16px; font-weight: bold;');
-console.log('%cComputer Science & AI Enthusiast', 'color: #10b981; font-size: 12px;');
+console.log('%cFounding Engineer & CS Student', 'color: #10b981; font-size: 12px;');
